@@ -1,0 +1,47 @@
+.top-bar{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:999;
+    background-color:rgba(255, 255, 255, .1);
+    font-weight: bold;
+    color:gray;
+    transition: 1s;
+}
+
+.hoverElement{
+    transition: 1s;
+}
+
+.hoverElement:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.card-hover:hover .card-p {
+    opacity: 1;
+    transition: 1s;
+    margin-top: 5rem;
+}
+
+.card-hover:hover .card-div {
+    height: 20rem;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.card-div{
+    width:25rem;
+    height:10rem;
+    background:green;
+    opacity:0;
+    transition:0.5s; 
+}
+
+.card-p{
+    position:absolute;
+    opacity:0;
+    margin-top:0rem;
+    transition:1s;
+}
